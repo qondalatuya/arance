@@ -1,11 +1,12 @@
 package org.osprera.prestaciones.arancel.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 
 @Entity
-public class Nomenclature{
+public class Nomenclature implements Serializable{
 
     @Id
     @GeneratedValue

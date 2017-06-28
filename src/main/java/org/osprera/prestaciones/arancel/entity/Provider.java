@@ -1,12 +1,14 @@
 package org.osprera.prestaciones.arancel.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
+
 /**
  Proveedor. cada proveedor puede tener un único nomenclador asociado. Parecio el diseño mas razonable
  */
 
 @Entity
-public class Provider {
+public class Provider implements Serializable {
 
     @Id
     @GeneratedValue

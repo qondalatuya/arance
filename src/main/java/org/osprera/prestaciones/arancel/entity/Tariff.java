@@ -1,6 +1,7 @@
 package org.osprera.prestaciones.arancel.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 /*
@@ -8,7 +9,7 @@ entidad debil para un precio en un momento determinado, para un nomenclador dete
  */
 
 @Entity
-public class Tariff {
+public class Tariff implements Serializable {
 
     @Id
     @GeneratedValue

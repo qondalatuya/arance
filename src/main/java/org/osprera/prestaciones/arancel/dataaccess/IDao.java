@@ -2,9 +2,9 @@ package org.osprera.prestaciones.arancel.dataaccess;
 
 public interface IDao<K>{
   
-  public void save(K k);
-  public void delete (K k);
-  public void update (K k);
-  public K getById(long id);
+  void save(K k);
+  void delete (K k);
+  K update (K k);
+  K getById(long id);
   
 }
