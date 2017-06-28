@@ -12,7 +12,7 @@
     <!-- Database Configuration
     <import resource="../database/DataSource.xml"/>
     <import resource="../database/Hibernate.xml"/>-->
-    <context:component-scan base-package="dataaccess"/>
+    <context:component-scan base-package="org.osprera.prestaciones.arancel"/>
     <tx:annotation-driven></tx:annotation-driven>
 
 

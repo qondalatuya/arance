@@ -1,6 +1,6 @@
-package dataaccess.hibernate4;
+package org.osprera.prestaciones.arancel.dataaccess.hibernate4;
 
-import entity.Praxis;
+import org.osprera.prestaciones.arancel.entity.Praxis;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

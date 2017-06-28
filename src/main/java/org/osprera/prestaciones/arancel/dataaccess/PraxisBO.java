@@ -1,7 +1,7 @@
-package dataaccess;
+package org.osprera.prestaciones.arancel.dataaccess;
 
-import dataaccess.hibernate4.PraxisDao;
-import entity.Praxis;
+import org.osprera.prestaciones.arancel.dataaccess.hibernate4.PraxisDao;
+import org.osprera.prestaciones.arancel.entity.Praxis;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

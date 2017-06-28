@@ -1,4 +1,4 @@
-package entity;
+package org.osprera.prestaciones.arancel.entity;
 
 import javax.persistence.*;
 /**

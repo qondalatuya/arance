@@ -30,12 +30,12 @@
 
         <property name="annotatedClasses">
             <list>
-                <value>entity.Priceable</value>
-                <value>entity.NomenclatedPraxis</value>
-                <value>entity.Nomenclature</value>
-                <value>entity.Praxis</value>
-                <value>entity.Provider</value>
-                <value>entity.Tariff</value>
+                <value>org.osprera.prestaciones.arancel.entity.Priceable</value>
+                <value>org.osprera.prestaciones.arancel.entity.NomenclatedPraxis</value>
+                <value>org.osprera.prestaciones.arancel.entity.Nomenclature</value>
+                <value>org.osprera.prestaciones.arancel.entity.Praxis</value>
+                <value>org.osprera.prestaciones.arancel.entity.Provider</value>
+                <value>org.osprera.prestaciones.arancel.entity.Tariff</value>
             </list>
         </property>
     </bean>

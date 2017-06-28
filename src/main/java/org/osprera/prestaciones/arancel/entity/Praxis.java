@@ -1,9 +1,7 @@
-package entity;
+package org.osprera.prestaciones.arancel.entity;
 
 import javax.persistence.Entity;
-import javax.persistence.Id;
 import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
 import java.io.Serializable;
 
 /*esta clase representaria una practica, con un valor fijo*/

@@ -1,8 +1,8 @@
-package test;
+package org.osprera.prestaciones.arancel.test;
 
-import dataaccess.PraxisBO;
-import dataaccess.hibernate4.PraxisDao;
-import entity.Praxis;
+import org.osprera.prestaciones.arancel.dataaccess.PraxisBO;
+import org.osprera.prestaciones.arancel.dataaccess.hibernate4.PraxisDao;
+import org.osprera.prestaciones.arancel.entity.Praxis;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

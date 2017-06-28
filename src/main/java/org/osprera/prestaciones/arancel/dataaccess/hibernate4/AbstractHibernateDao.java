@@ -1,7 +1,6 @@
-package dataaccess.hibernate4;
+package org.osprera.prestaciones.arancel.dataaccess.hibernate4;
 
 
-import dataaccess.IDao;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

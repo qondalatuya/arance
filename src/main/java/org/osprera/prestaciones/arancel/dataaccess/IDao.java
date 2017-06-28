@@ -1,4 +1,4 @@
-package dataaccess;
+package org.osprera.prestaciones.arancel.dataaccess;
 
 public interface IDao<K>{
   
