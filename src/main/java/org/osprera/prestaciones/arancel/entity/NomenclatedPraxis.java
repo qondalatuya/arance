@@ -2,6 +2,7 @@ package org.osprera.prestaciones.arancel.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -14,7 +15,7 @@ public class NomenclatedPraxis extends Praxis implements Serializable{
 		joinColumns=@JoinColumn(name="PRA_ID",referencedColumnName="ID"),
 		inverseJoinColumns = @JoinColumn (name="COHEF_ID",referencedColumnName="ID")
 		)
-	private List<Priceable> units;
+	private List<Priceable> units=new ArrayList<>();
 	
 	public List<Priceable> getUnits(){
 		return this.units;

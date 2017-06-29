@@ -1,7 +1,10 @@
 package org.osprera.prestaciones.arancel.entity;
 
+import org.apache.commons.collections.ArrayStack;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -19,13 +22,13 @@ public class Nomenclature implements Serializable{
 
             inverseJoinColumns=@JoinColumn(name="PRAX_ID", referencedColumnName="ID")
     )
-    private List<Praxis> praxises;
+    private List<Praxis> praxises=new ArrayList<>();
 
     @OneToMany(mappedBy="nomen")
-    private List<Tariff> tariffes;
+    private List<Tariff> tariffes= new ArrayList<>();
 
     @OneToMany(mappedBy = "nomen")
-    private List<Provider> providers;
+    private List<Provider> providers= new ArrayList<>();
 
     @Column
     private String name;
